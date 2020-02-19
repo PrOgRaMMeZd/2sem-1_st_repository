@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		D54FE6E423FD498D00E64E52 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D54FE6E323FD498D00E64E52 /* main.cpp */; };
+		D54FE6EC23FD49DC00E64E52 /* subforwardlist.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D54FE6EA23FD49DC00E64E52 /* subforwardlist.cpp */; };
+		D54FE70523FD51F400E64E52 /* subvector.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D54FE70323FD51F400E64E52 /* subvector.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,11 @@
 /* Begin PBXFileReference section */
 		D54FE6E023FD498D00E64E52 /* Stack_new */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Stack_new; sourceTree = BUILT_PRODUCTS_DIR; };
 		D54FE6E323FD498D00E64E52 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		D54FE6EA23FD49DC00E64E52 /* subforwardlist.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = subforwardlist.cpp; sourceTree = "<group>"; };
+		D54FE6EB23FD49DC00E64E52 /* subforwardlist.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = subforwardlist.hpp; sourceTree = "<group>"; };
+		D54FE70323FD51F400E64E52 /* subvector.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = subvector.cpp; sourceTree = "<group>"; };
+		D54FE70423FD51F400E64E52 /* subvector.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = subvector.hpp; sourceTree = "<group>"; };
+		D54FE70623FD527E00E64E52 /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +65,11 @@
 			isa = PBXGroup;
 			children = (
 				D54FE6E323FD498D00E64E52 /* main.cpp */,
+				D54FE6EA23FD49DC00E64E52 /* subforwardlist.cpp */,
+				D54FE6EB23FD49DC00E64E52 /* subforwardlist.hpp */,
+				D54FE70623FD527E00E64E52 /* Header.h */,
+				D54FE70323FD51F400E64E52 /* subvector.cpp */,
+				D54FE70423FD51F400E64E52 /* subvector.hpp */,
 			);
 			path = Stack_new;
 			sourceTree = "<group>";
@@ -119,6 +131,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D54FE6EC23FD49DC00E64E52 /* subforwardlist.cpp in Sources */,
+				D54FE70523FD51F400E64E52 /* subvector.cpp in Sources */,
 				D54FE6E423FD498D00E64E52 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
